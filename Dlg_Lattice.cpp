@@ -4,7 +4,6 @@
 #include "stdafx.h"
 #include "Dlg_ispLattice.h"
 #include "ispMachXO2.h"
-#include"afxpropertypage.h"
 #include "../common/prog_info.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW

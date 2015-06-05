@@ -127,7 +127,7 @@ void Dlg_ispMachXO2::OnOK()
 
 		memcpy(m_RegBuff + 16, &S_En, 4);
 	}
-	*m_pDataLen = sizeof(U_Code)+sizeof(S_En)+sizeof(temprow1)+sizeof(temprow2)+(sizeof(F_Bit)+2);
+	*m_pDataLen = sizeof(code)+sizeof(S_En)+sizeof(F_Row)+sizeof(F_Bit);
 	CMFCPropertyPage::OnOK();
 }
 
