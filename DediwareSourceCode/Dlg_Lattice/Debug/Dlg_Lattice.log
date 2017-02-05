@@ -1,0 +1,36 @@
+﻿Build started 2016/12/29 上午 11:22:00.
+     1>Project "C:\DediWare-master\Dlg_Lattice\Dlg_Lattice.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D _AFXDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Dlg_Lattice_ALN_200.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D _AFXDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Dlg_Lattice_ALN_200.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dlg_iCE40.cpp Dlg_ispLattice.cpp Dlg_Lattice.cpp ispMachXO2.cpp
+         ispMachXO2.cpp
+     1>c:\dediware-master\dlg_lattice\ispmachxo2.cpp(104): warning C4244: '=' : conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\dlg_lattice\ispmachxo2.cpp(106): warning C4244: '=' : conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\dlg_lattice\ispmachxo2.cpp(112): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned short', possible loss of data
+     1>c:\dediware-master\dlg_lattice\ispmachxo2.cpp(116): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         Dlg_Lattice.cpp
+         Dlg_ispLattice.cpp
+     1>c:\dediware-master\dlg_lattice\dlg_isplattice.cpp(78): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         Dlg_iCE40.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D _AFXDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\Dlg_Lattice.res" Dlg_Lattice.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_Lattice_ALN_200.dll" /INCREMENTAL /NOLOGO /DEF:".\Dlg_Lattice.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_Lattice_ALN_200.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_Lattice_ALN_200.lib" /MACHINE:X86 /DLL Debug\Dlg_Lattice.res
+         Debug\Dlg_iCE40.obj
+         Debug\Dlg_ispLattice.obj
+         Debug\Dlg_Lattice.obj
+         Debug\dllmain.obj
+         Debug\ispMachXO2.obj
+         Debug\stdafx.obj
+            Creating library C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_Lattice_ALN_200.lib and object C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_Lattice_ALN_200.exp
+         Dlg_Lattice.vcxproj -> C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_Lattice_ALN_200.dll
+     1>Done Building Project "C:\DediWare-master\Dlg_Lattice\Dlg_Lattice.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.32

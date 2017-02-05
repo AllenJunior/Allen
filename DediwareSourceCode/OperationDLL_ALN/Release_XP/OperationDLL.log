@@ -1,0 +1,55 @@
+﻿Build started 2015/9/25 上午 10:29:31.
+     1>Project "C:\DediWare(150902)\OperationDLL_ALN\OperationDLL.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release_XP\) contains files shared from another project (Operation_gen.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D OPERATIONDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release_XP\OperationDLL.pch" /Fo"Release_XP\\" /Fd"Release_XP\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D OPERATIONDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_XP\\" /Fd"Release_XP\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D OPERATIONDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release_XP\OperationDLL.pch" /Fo"Release_XP\\" /Fd"Release_XP\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OperationDLL.cpp
+         OperationDLL.cpp
+     1>c:\dediware(150902)\operationdll_aln\IR35XX.h(40): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\IR35XX.h(42): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\IR35XX.h(63): warning C4244: 'argument' : conversion from '__int64' to 'unsigned long', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\IR35XX.h(64): warning C4244: 'argument' : conversion from '__int64' to 'unsigned long', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\IR35XX.h(65): warning C4244: 'argument' : conversion from '__int64' to 'unsigned long', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\MC96Fxxxx.h(59): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\MC96Fxxxx.h(64): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\MC96Fxxxx.h(76): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(53): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(72): warning C4101: 'k' : unreferenced local variable
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(72): warning C4101: 'L' : unreferenced local variable
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(186): warning C4244: 'initializing' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(198): warning C4244: 'initializing' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(210): warning C4066: characters beyond first in wide-character constant ignored
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(218): warning C4244: 'initializing' : conversion from 'long' to 'short', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(220): warning C4244: 'initializing' : conversion from 'long' to 'short', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\LatticeUnique.h(262): warning C4244: 'initializing' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\iML7975.h(51): warning C4101: 'pStruct_Buffer' : unreferenced local variable
+     1>c:\dediware(150902)\operationdll_aln\ST_PM67xxCRC.h(50): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\ST_PM67xxCRC.h(54): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\ST_PM67xxCRC.h(55): warning C4244: 'argument' : conversion from '__int64' to 'unsigned char', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\ST_PM67xxCRC.h(48): warning C4101: 'pStruct_Buffer' : unreferenced local variable
+     1>OperationDLL.cpp(222): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>OperationDLL.cpp(229): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>OperationDLL.cpp(236): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware(150902)\operationdll_aln\operationdll.cpp(302): warning C4715: 'read_reg' : not all control paths return a value
+     1>c:\dediware(150902)\operationdll_aln\st_pm67xxcrc.h(57): warning C4715: 'ST_CRC' : not all control paths return a value
+     1>c:\dediware(150902)\operationdll_aln\ir35xx.h(69): warning C4715: 'IR35XXX' : not all control paths return a value
+     1>c:\dediware(150902)\operationdll_aln\latticeunique.h(271): warning C4715: 'XO2Feature' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release_XP\OperationDLL.res" OperationDLL.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DediWare(150902)\Release_XP\Server\ICSupport\Binary\OperationDLL.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\DediWare(150902)\Release_XP\Server" vm_mgr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\DediWare(150902)\Release_XP\Server\ICSupport\Binary\OperationDLL.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DediWare(150902)\Release_XP\Server\ICSupport\Binary\OperationDLL.lib" /MACHINE:X86 /SAFESEH /DLL Release_XP\OperationDLL.res
+         Release_XP\dllmain.obj
+         Release_XP\OperationDLL.obj
+         Release_XP\stdafx.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+            Creating library C:\DediWare(150902)\Release_XP\Server\ICSupport\Binary\OperationDLL.lib and object C:\DediWare(150902)\Release_XP\Server\ICSupport\Binary\OperationDLL.exp
+         OperationDLL.vcxproj -> C:\DediWare(150902)\Release_XP\Server\ICSupport\Binary\OperationDLL.dll
+     1>Done Building Project "C:\DediWare(150902)\OperationDLL_ALN\OperationDLL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.46

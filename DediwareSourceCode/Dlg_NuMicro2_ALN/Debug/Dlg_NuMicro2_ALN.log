@@ -1,0 +1,40 @@
+﻿Build started 2016/12/29 上午 11:22:04.
+     1>Project "C:\DediWare-master\Dlg_NuMicro2_ALN\Dlg_NuMicro2_ALN.vcxproj" on node 3 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D _AFXDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Dlg_NuMicro2_ALN.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D _AFXDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Dlg_NuMicro2_ALN.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dlg_NUC400.cpp Dlg_NUC505.cpp Dlg_NuMicro2_ALN.cpp
+         Dlg_NuMicro2_ALN.cpp
+         Dlg_NUC505.cpp
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc505.cpp(162): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc505.cpp(170): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc505.cpp(178): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc505.cpp(186): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc505.cpp(194): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         Dlg_NUC400.cpp
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc400.cpp(451): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc400.cpp(455): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc400.cpp(459): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc400.cpp(463): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc400.cpp(513): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\dlg_numicro2_aln\dlg_nuc400.cpp(525): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D _AFXDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\Dlg_NuMicro2_ALN.res" Dlg_NuMicro2_ALN.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_NuMicro2_ALN.dll" /INCREMENTAL /NOLOGO /DEF:".\Dlg_NuMicro2_ALN.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_NuMicro2_ALN.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_NuMicro2_ALN.lib" /MACHINE:X86 /DLL Debug\Dlg_NuMicro2_ALN.res
+         Debug\Dlg_NUC400.obj
+         Debug\Dlg_NUC505.obj
+         Debug\Dlg_NuMicro2_ALN.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+            Creating library C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_NuMicro2_ALN.lib and object C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_NuMicro2_ALN.exp
+         Dlg_NuMicro2_ALN.vcxproj -> C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_NuMicro2_ALN.dll
+     1>Done Building Project "C:\DediWare-master\Dlg_NuMicro2_ALN\Dlg_NuMicro2_ALN.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.85

@@ -1,0 +1,45 @@
+﻿Build started 2016/11/3 上午 10:23:53.
+     1>Project "C:\DediWare-master\Dlg_ABOV_ALN\Dlg_ABOV_ALN.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Dlg_ABOV_ALN.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Dlg_ABOV_ALN.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dlg_ABOV_ALN.cpp Dlg_MC96F6432A.cpp Dlg_MC96F6432S.cpp Dlg_MC96F6632.cpp Dlg_MC96FC664A.cpp
+         Dlg_ABOV_ALN.cpp
+         Dlg_MC96F6432A.cpp
+     1>Dlg_MC96F6432A.cpp(227): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>Dlg_MC96F6432A.cpp(230): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>Dlg_MC96F6432A.cpp(235): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+         Dlg_MC96F6432S.cpp
+     1>Dlg_MC96F6432S.cpp(227): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>Dlg_MC96F6432S.cpp(230): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>Dlg_MC96F6432S.cpp(239): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>Dlg_MC96F6432S.cpp(247): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+         Dlg_MC96F6632.cpp
+     1>Dlg_MC96F6632.cpp(200): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>Dlg_MC96F6632.cpp(204): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>Dlg_MC96F6632.cpp(225): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         Dlg_MC96FC664A.cpp
+     1>Dlg_MC96FC664A.cpp(166): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\Dlg_ABOV_ALN.res" Dlg_ABOV_ALN.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DediWare-master\Release\Server\ICSupport\Binary\Dlg_ABOV_ALN.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\Dlg_ABOV_ALN.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\DediWare-master\Release\Server\ICSupport\Binary\Dlg_ABOV_ALN.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DediWare-master\Release\Server\ICSupport\Binary\Dlg_ABOV_ALN.lib" /MACHINE:X86 /SAFESEH /DLL Release\Dlg_ABOV_ALN.res
+         Release\Dlg_ABOV_ALN.obj
+         Release\Dlg_MC96F6432A.obj
+         Release\Dlg_MC96F6432S.obj
+         Release\Dlg_MC96F6632.obj
+         Release\Dlg_MC96FC664A.obj
+         Release\dllmain.obj
+         Release\stdafx.obj
+            Creating library C:\DediWare-master\Release\Server\ICSupport\Binary\Dlg_ABOV_ALN.lib and object C:\DediWare-master\Release\Server\ICSupport\Binary\Dlg_ABOV_ALN.exp
+         Generating code
+         Finished generating code
+         Dlg_ABOV_ALN.vcxproj -> C:\DediWare-master\Release\Server\ICSupport\Binary\Dlg_ABOV_ALN.dll
+     1>Done Building Project "C:\DediWare-master\Dlg_ABOV_ALN\Dlg_ABOV_ALN.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.59

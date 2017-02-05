@@ -1,0 +1,38 @@
+﻿Build started 2017/1/5 上午 10:26:28.
+     1>Project "C:\DediWare-master\Dlg_ATmega\Dlg_ATmega.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXEXT /D _AFXDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Dlg_ATmega_ALN.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dlg_ATmega328.cpp
+         Dlg_ATmega328.cpp
+     1>c:\dediware-master\dlg_atmega\dlg_atmega328.cpp(896): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\dlg_atmega\dlg_atmega328.cpp(900): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\dlg_atmega\dlg_atmega328.cpp(904): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\dlg_atmega\dlg_atmega328.cpp(908): warning C4244: '=' : conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_ATmega_ALN.dll" /INCREMENTAL /NOLOGO /DEF:".\Dlg_ATmega.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_ATmega_ALN.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_ATmega_ALN.lib" /MACHINE:X86 /DLL Debug\Dlg_ATmega.res
+         Debug\Dlg_AT90CAN.obj
+         Debug\Dlg_AT90PWMX.obj
+         Debug\Dlg_AT90PWMX1.obj
+         Debug\Dlg_AT90USB.obj
+         Debug\Dlg_ATmega.obj
+         Debug\Dlg_ATmega128.obj
+         Debug\Dlg_ATmega16.obj
+         Debug\Dlg_ATmega162.obj
+         Debug\Dlg_ATmega328.obj
+         Debug\Dlg_ATmega48.obj
+         Debug\Dlg_ATmega8.obj
+         Debug\Dlg_ATmega88.obj
+         Debug\Dlg_ATmegaHVA.obj
+         Debug\Dlg_ATmegaHVB.obj
+         Debug\Dlg_ATmegaM1.obj
+         Debug\Dlg_ATmegaU2.obj
+         Debug\Dlg_ATmegaX0X4.obj
+         Debug\Dlg_ATmegaX5X9.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+         Dlg_ATmega.vcxproj -> C:\DediWare-master\Debug\Server\ICSupport\Binary\Dlg_ATmega_ALN.dll
+     1>Done Building Project "C:\DediWare-master\Dlg_ATmega\Dlg_ATmega.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.09

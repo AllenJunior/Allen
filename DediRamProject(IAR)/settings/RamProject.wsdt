@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>ICP_Nu8051/Debug</Project><Project>DBG_MC96Fxxxx/Debug</Project><Project>ICP_NUC505/Debug</Project><Project>ICP_NuMicro/Debug</Project><Project>IIC_78M6610/Debug</Project><Project>IIC_IN602C/Debug</Project><Project>IIC_IR35XX/Debug</Project><Project>IIC_LP8860/Debug</Project><Project>IIC_Multiramfunction/Debug</Project><Project>IIC_ST_PM/Debug</Project><Project>IIC_NT0660/Debug</Project><Project>IIC_WT61P8/Debug</Project><Project>JTAG_LatticeM4/Debug</Project><Project>SMBUS_UCD90/Debug</Project><Project>JTAG_AT91SAM7S/Debug</Project><Project>JTAG_IRMCK/Debug</Project><Project>JTAG_ATxmegaA3/Debug</Project><Project>JTAG_Lattice/Debug</Project><Project>ISP_ATtinyX/Debug</Project><Project>ISP_ATmega/Debug</Project><Project>JTAG_AT32UC3/Debug</Project><Project>SP37/Debug</Project><Project>SPI_iCE40/Debug</Project><Project>SPI_NPCE/Debug</Project><Project>SPI_ZWAVE/Debug</Project><Project>SWD_ATSAM/Debug</Project><Project>simulate/Debug</Project><Project>LED_Test/Debug</Project><Project>TPI_ATtinyX/Debug</Project><Project>template/Debug</Project><Project>SWD_Cortex/Debug</Project><Project>TTAG_A8XXX/Debug</Project><Project>UART_N78/Debug</Project><Project>UART_MON8/Debug</Project><Project>IIC_Primarion/Debug</Project></CurrentConfigs><CurrentProj>IIC_Primarion</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>234</Column0><Column1>27</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build><Find-All-References><ColumnWidth0>412</ColumnWidth0><ColumnWidth1>58</ColumnWidth1><ColumnWidth2>707</ColumnWidth2></Find-All-References><TerminalIO/><Debug-Log><ColumnWidth0>56</ColumnWidth0><ColumnWidth1>1038</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+    <Wnd0><Tabs><Tab><Identity>TabID-24449-29686</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-32498-9379</Identity><TabName>Find All References</TabName><Factory>Find-All-References</Factory><Session/></Tab><Tab><Identity>TabID-4168-19183</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-14274-14162</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/JTAG_MC56F827XX</ExpandedNode><ExpandedNode>&lt;ws&gt;/SPI_Numicro</ExpandedNode><ExpandedNode>&lt;ws&gt;/SWD_Cortex</ExpandedNode><ExpandedNode>DBG_MC96Fxxxx</ExpandedNode><ExpandedNode>ICP_Nu8051</ExpandedNode><ExpandedNode>JTAG_ATxmegaA3</ExpandedNode><ExpandedNode>LED_Test</ExpandedNode><ExpandedNode>TTAG_A8XXX</ExpandedNode><ExpandedNode>UART_MON8</ExpandedNode><ExpandedNode>UART_N78</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\IIC_Primarion.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>121</YPos2><SelStart2>296</SelStart2><SelEnd2>311</SelEnd2></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\IIC_IR35xx.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>90</YPos2><SelStart2>2334</SelStart2><SelEnd2>2337</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-051ECBC0><key>iaridepm.enu1</key></Toolbar-051ECBC0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>381</Bottom><Right>325</Right><x>-2</x><y>-2</y><xscreen>45</xscreen><yscreen>2</yscreen><sizeHorzCX>40909</sizeHorzCX><sizeHorzCY>3436</sizeHorzCY><sizeVertCX>297273</sizeVertCX><sizeVertCY>658076</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>156</Bottom><Right>1102</Right><x>-2</x><y>-2</y><xscreen>1104</xscreen><yscreen>158</yscreen><sizeHorzCX>1003636</sizeHorzCX><sizeHorzCY>271478</sizeHorzCY><sizeVertCX>29091</sizeVertCX><sizeVertCY>3436</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

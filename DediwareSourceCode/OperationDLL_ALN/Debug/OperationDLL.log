@@ -1,0 +1,147 @@
+﻿Build started 2017/1/25 下午 06:04:23.
+     1>Project "C:\DediWare-master\OperationDLL_ALN\OperationDLL.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Operation_gen.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D OPERATIONDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OperationDLL_ALN_201.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OperationDLL.cpp
+         OperationDLL.cpp
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(335): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(339): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(343): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(347): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(353): warning C4102: 'end' : unreferenced label
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(687): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(691): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(695): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(699): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(705): warning C4102: 'end' : unreferenced label
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1039): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1043): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1047): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1051): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1057): warning C4102: 'end' : unreferenced label
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1306): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1310): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1314): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1318): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1324): warning C4102: 'end' : unreferenced label
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1629): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1633): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1637): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1641): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\ir35xx.h(1647): warning C4102: 'end' : unreferenced label
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(41): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'size_t', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(42): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'size_t', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(60): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(65): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(79): warning C4244: 'initializing' : conversion from 'const unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(80): warning C4552: '>' : operator has no effect; expected operator with side-effect
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(85): warning C4552: '>' : operator has no effect; expected operator with side-effect
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(132): warning C4244: '=' : conversion from 'const unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(163): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'size_t', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(164): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'size_t', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(172): warning C4244: 'initializing' : conversion from 'const unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(174): warning C4552: '>' : operator has no effect; expected operator with side-effect
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(179): warning C4552: '>' : operator has no effect; expected operator with side-effect
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(228): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(233): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(245): warning C4244: '=' : conversion from 'const unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\dediware-master\operationdll_aln\mc96fxxxx.h(267): warning C4244: '=' : conversion from 'const unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(84): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(90): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(93): warning C4244: 'initializing' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(127): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(133): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(136): warning C4244: 'initializing' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(188): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(194): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(198): warning C4244: 'initializing' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(185): warning C4102: 'end_crc' : unreferenced label
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(277): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(303): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(325): warning C4102: 'std' : unreferenced label
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(357): warning C4101: 'Data_str' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(444): warning C4244: 'initializing' : conversion from 'const unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(477): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(487): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(498): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(516): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(519): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(531): warning C4309: '=' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(576): warning C4244: 'initializing' : conversion from 'const unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(599): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(603): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(612): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(616): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(640): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(652): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(663): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(683): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(686): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(700): warning C4309: '=' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(593): warning C4101: 'tempdata' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\iml7975.h(29): warning C4101: 'pStruct_Buffer' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\st_pm67xxcrc.h(110): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\dediware-master\operationdll_aln\st_pm67xxcrc.h(115): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\tps40x22.h(55): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\tps40x22.h(94): warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+     1>c:\dediware-master\operationdll_aln\tps40x22.h(56): warning C4101: 'k' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\tps40x22.h(56): warning C4101: 'j' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\tps536x1.h(50): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\tps536x1.h(77): warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+     1>c:\dediware-master\operationdll_aln\tps536x1.h(51): warning C4101: 'k' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\tps536x1.h(51): warning C4101: 'j' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\tps536x9.h(88): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\tps536x9.h(89): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\tps536x9.h(159): warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\tps536x9.h(197): warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+     1>c:\dediware-master\operationdll_aln\tps536x9.h(201): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\tps536x9.h(91): warning C4101: 'j' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\tps40428.h(54): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\tps40428.h(93): warning C4244: '=' : conversion from 'long' to 'short', possible loss of data
+     1>c:\dediware-master\operationdll_aln\tps40428.h(55): warning C4101: 'k' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\tps40428.h(55): warning C4101: 'j' : unreferenced local variable
+     1>c:\dediware-master\operationdll_aln\amiccom.h(26): warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+     1>c:\dediware-master\operationdll_aln\lp8860.h(132): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\dediware-master\operationdll_aln\lp8860.h(136): warning C4309: 'initializing' : truncation of constant value
+     1>c:\dediware-master\operationdll_aln\lp8860.h(142): warning C4102: 'end' : unreferenced label
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(267): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(403): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(424): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(434): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(486): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(498): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(509): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(525): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(574): warning C4244: 'argument' : conversion from 'const unsigned __int64' to 'int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2600): warning C4244: '=' : conversion from 'const unsigned long' to 'unsigned char', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2623) : see reference to function template instantiation 'void std::_Fill<unsigned char*,_Ty>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+                 with
+                 [
+                     _Ty=unsigned long
+         ,            _FwdIt=unsigned char *
+                 ]
+                 c:\dediware-master\operationdll_aln\lp8860.h(51) : see reference to function template instantiation 'void std::fill<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned char>>>,unsigned long>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+                 with
+                 [
+                     _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned char>>>
+         ,            _Ty=unsigned long
+                 ]
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(264): warning C4715: 'iCE40Feature' : not all control paths return a value
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(538): warning C4715: 'XOFeature' : not all control paths return a value
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(410): warning C4715: 'Cal_JEDChecksum' : not all control paths return a value
+     1>c:\dediware-master\operationdll_aln\latticeunique.h(709): warning C4715: 'XO2Feature' : not all control paths return a value
+     1>c:\dediware-master\operationdll_aln\st_pm67xxcrc.h(140): warning C4715: 'ST_CRC' : not all control paths return a value
+     1>c:\dediware-master\operationdll_aln\operationdll.cpp(638): warning C4715: 'read_reg' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DediWare-master\Debug\Server\ICSupport\Binary\OperationDLL_ALN_201.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\DediWare-master\Debug\Server" vm_mgr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\OperationDLL_ALN_201.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\OperationDLL_ALN_201.lib" /MACHINE:X86 /DLL Debug\OperationDLL.res
+         Debug\dllmain.obj
+         Debug\OperationDLL.obj
+         Debug\stdafx.obj
+            Creating library C:\DediWare-master\Debug\Server\ICSupport\Binary\OperationDLL_ALN_201.lib and object C:\DediWare-master\Debug\Server\ICSupport\Binary\OperationDLL_ALN_201.exp
+         OperationDLL.vcxproj -> C:\DediWare-master\Debug\Server\ICSupport\Binary\OperationDLL_ALN_201.dll
+     1>Done Building Project "C:\DediWare-master\OperationDLL_ALN\OperationDLL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.51

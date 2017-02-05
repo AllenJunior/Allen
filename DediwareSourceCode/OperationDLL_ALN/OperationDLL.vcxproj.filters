@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\IR35XX.hFile">
+      <UniqueIdentifier>{451b651e-84c3-4668-af47-46d07d50a174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texas.hFiles">
+      <UniqueIdentifier>{96542927-7ab4-4afa-b5b8-cff2880c3f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Function.hFiles">
+      <UniqueIdentifier>{2c7d0bd5-2c80-4cc9-9a24-6aa6eff0797e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lattice.hFile">
+      <UniqueIdentifier>{c976747a-6521-4e71-8d8c-ebc54d789bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ABOV.hFile">
+      <UniqueIdentifier>{9182da59-a34b-4637-80bc-81fe4d5b8a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STM.hFile">
+      <UniqueIdentifier>{7c07deb6-591c-4653-b1e3-e3ff3d0a94d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Amiccom.hFile">
+      <UniqueIdentifier>{cf16fa21-6467-46d9-b808-69a1f598d789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\iML7975.hFIle">
+      <UniqueIdentifier>{837833af-949c-431a-8ea2-3b69c25a7171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Primarion.hFile">
+      <UniqueIdentifier>{4f4c930a-84e8-44c0-8046-1c83b8b00255}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TPS40X22.h">
+      <Filter>Header Files\Texas.hFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TPS536X1.h">
+      <Filter>Header Files\Texas.hFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TPS536X9.h">
+      <Filter>Header Files\Texas.hFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TPS40428.h">
+      <Filter>Header Files\Texas.hFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="IR35XX.h">
+      <Filter>Header Files\IR35XX.hFile</Filter>
+    </ClInclude>
+    <ClInclude Include="numeric_conversion.h">
+      <Filter>Header Files\Function.hFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Header Files\Function.hFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Header Files\Function.hFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="LatticeUnique.h">
+      <Filter>Header Files\Lattice.hFile</Filter>
+    </ClInclude>
+    <ClInclude Include="MC96Fxxxx.h">
+      <Filter>Header Files\ABOV.hFile</Filter>
+    </ClInclude>
+    <ClInclude Include="ST_PM67xxCRC.h">
+      <Filter>Header Files\STM.hFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Amiccom.h">
+      <Filter>Header Files\Amiccom.hFile</Filter>
+    </ClInclude>
+    <ClInclude Include="iml7975.h">
+      <Filter>Header Files\iML7975.hFIle</Filter>
+    </ClInclude>
+    <ClInclude Include="LP8860.h">
+      <Filter>Header Files\Texas.hFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimarionFile.h">
+      <Filter>Header Files\Primarion.hFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OperationDLL.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

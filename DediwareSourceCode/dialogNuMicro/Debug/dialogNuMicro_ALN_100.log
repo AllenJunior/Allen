@@ -1,0 +1,35 @@
+﻿Build started 2016/12/31 上午 12:19:37.
+     1>Project "C:\DediWare-master\dialogNuMicro\dialogNuMicro_ALN_100.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (dialogNuMicro_ALN_100.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _DEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\dialogNuMicro.res" dialogNuMicro.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DediWare-master\Debug\Server\ICSupport\Binary\dialogNuMicro_ALN_201.dll" /INCREMENTAL /NOLOGO /DEF:".\dialogNuMicro.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\dialogNuMicro_ALN_201.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DediWare-master\Debug\Server\ICSupport\Binary\dialogNuMicro_ALN_201.lib" /MACHINE:X86 /DLL Debug\dialogNuMicro.res
+         Debug\dialogNuMicro.obj
+         Debug\DlgMini51.obj
+         Debug\DLG_ISD9XXX.obj
+         Debug\DLG_M0518.obj
+         Debug\Dlg_M0519.obj
+         Debug\DLG_M05X.obj
+         Debug\Dlg_M05XD.obj
+         Debug\Dlg_M451AE.obj
+         Debug\Dlg_Mini51D.obj
+         Debug\Dlg_Mini58.obj
+         Debug\Dlg_N78E517.obj
+         Debug\Dlg_N79E7X.obj
+         Debug\Dlg_Nano102.obj
+         Debug\Dlg_Nano1X0AN.obj
+         Debug\Dlg_Nano1X0BN.obj
+         Debug\DLG_Nu8051.obj
+         Debug\Dlg_NUC103.obj
+         Debug\Dlg_NUC120DN.obj
+         Debug\DLG_NUC1X0ACN.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+         dialogNuMicro_ALN_100.vcxproj -> C:\DediWare-master\Debug\Server\ICSupport\Binary\dialogNuMicro_ALN_201.dll
+     1>Done Building Project "C:\DediWare-master\dialogNuMicro\dialogNuMicro_ALN_100.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.49

@@ -1,0 +1,24 @@
+﻿Build started 2016/12/28 上午 11:59:07.
+     1>Project "C:\DediWare-master\FILE_JED\FILE_JED.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D FILE_JED_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release_XP\JEDEC.pch" /Fo"Release_XP\\" /Fd"Release_XP\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FILE_JED.cpp
+         FILE_JED.cpp
+     1>FILE_JED.cpp(60): warning C4244: '=' : conversion from 'const unsigned __int64' to 'unsigned int', possible loss of data
+     1>FILE_JED.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+     1>FILE_JED.cpp(197): warning C4018: '<' : signed/unsigned mismatch
+     1>FILE_JED.cpp(202): warning C4018: '<' : signed/unsigned mismatch
+     1>FILE_JED.cpp(206): warning C4244: 'initializing' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>FILE_JED.cpp(69): warning C4101: 'Line_str' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DediWare-master\Release_XP\Server\JEDEC.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\DediWare-master\Release_XP\Server\JEDEC.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DediWare-master\Release_XP\Server\JEDEC.lib" /MACHINE:X86 /SAFESEH /DLL Release_XP\dllmain.obj
+         Release_XP\FILE_JED.obj
+         Release_XP\stdafx.obj
+            Creating library C:\DediWare-master\Release_XP\Server\JEDEC.lib and object C:\DediWare-master\Release_XP\Server\JEDEC.exp
+         Generating code
+         Finished generating code
+         FILE_JED.vcxproj -> C:\DediWare-master\Release_XP\Server\JEDEC.dll
+     1>Done Building Project "C:\DediWare-master\FILE_JED\FILE_JED.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.09
